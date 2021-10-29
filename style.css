@@ -9,7 +9,64 @@ body {
 }
 
 .main-container {
-    background-color: honeydew;
-    min-height: 50vh;
-    min-width: 30vw;
+    background-color: black;
+    min-height: 555px;
+    min-width: 360px;
 }
+
+.output {
+    background-color: black;
+    height: 100px;
+    width: auto;
+    color: white;
+    font-size: 50px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.buttons {
+    background-color: black;
+    height: 455px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border-width: thin;
+    border-top: none;
+    border-bottom: none;
+}
+
+.zero {
+    height: 90px;
+    width: 180px;
+    font-size: 50px;
+}
+
+.equals {
+    font-size: 30px;
+}
+
+.period {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.number, .top {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
