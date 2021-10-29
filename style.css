@@ -1,0 +1,15 @@
+body {
+    background-color:grey;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: honeydew;
+    min-height: 50vh;
+    min-width: 30vw;
+}
